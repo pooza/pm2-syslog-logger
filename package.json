@@ -5,5 +5,13 @@
     "child_process": "^1.0.2",
     "pm2": "^2.10.1",
     "shell-escape": "^0.2.0"
-  }
+  },
+  "apps": [
+     {
+       "name": "pm2-syslog-logger",
+       "script": "app.js"
+     }
+  ],
+  "author": "Tatsuya Koishi",
+  "license": "MIT"
 }
