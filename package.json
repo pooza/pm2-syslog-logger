@@ -13,5 +13,19 @@
     }
   ],
   "author": "Tatsuya Koishi",
-  "license": "MIT"
+  "license": "MIT",
+  "description": "pm2のログを、loggerコマンドでsyslogに出力。",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pooza/pm2-syslog-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pooza/pm2-syslog-logger/issues"
+  },
+  "homepage": "https://github.com/pooza/pm2-syslog-logger#readme"
 }
