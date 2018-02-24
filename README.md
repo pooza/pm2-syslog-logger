@@ -12,7 +12,6 @@ sudo pm2 module:install pm2-syslog-logger
 
 ### syslog設定
 
-必要に応じて、適宜設定。  
 syslogに対するプログラム名は、pm2でのApp nameで出力している。
 以下、rsyslogでの設定例。
 
