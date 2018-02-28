@@ -3,8 +3,8 @@ const pm2 = require('pm2');
 const exec = require('child_process').exec;
 const shellescape = require('shell-escape');
 
-pm2.launchBus(function (err, bus) {
-  bus.on('log:err', function (data) {
+pm2.launchBus((err, bus) => {
+  bus.on('log:err', (data) => {
     exec([
       'logger',
       '-p', 'user.error',
@@ -13,7 +13,7 @@ pm2.launchBus(function (err, bus) {
     ].join(' '));
   });
 
-  bus.on('log:out', function (data) {
+  bus.on('log:out', (data) => {
     exec([
       'logger',
       '-p', 'user.info',

@@ -7,7 +7,7 @@ pm2のログを、loggerコマンドでsyslogに出力。
 ### pm2モジュールインストール
 
 ```
-sudo pm2 module:install pm2-syslog-logger
+pm2 module:install pm2-syslog-logger
 ```
 
 ### syslog設定
@@ -28,7 +28,7 @@ logrotateなり、newsyslogなり、それぞれのOSのものを使用する。
 ## ■設置後の更新の手順
 
 ```
-sudo pm2 module:update pm2-syslog-logger
+pm2 module:update pm2-syslog-logger
 ```
 
 ## ■配布元
