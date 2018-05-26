@@ -3,7 +3,7 @@
   "version": "0.1.5",
   "dependencies": {
     "child_process": "^1.0.2",
-    "pm2": "^2.10.2",
+    "pm2": "^2.10.4",
     "shell-escape": "^0.2.0"
   },
   "apps": [
