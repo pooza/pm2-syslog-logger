@@ -1,6 +1,6 @@
 {
   "name": "pm2-syslog-logger",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "dependencies": {
     "pm2": "^2.10.4",
     "posix": "^4.1.2"
@@ -15,7 +15,9 @@
   "license": "MIT",
   "description": "Output log of pm2 to syslog.",
   "main": "app.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^5.15.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
