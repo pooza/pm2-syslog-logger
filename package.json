@@ -3,7 +3,8 @@
   "version": "0.2.2",
   "dependencies": {
     "pm2": "^2.10.4",
-    "posix": "^4.1.2"
+    "posix": "^4.1.2",
+    "js-yaml": ">=3.13.1"
   },
   "apps": [
     {
