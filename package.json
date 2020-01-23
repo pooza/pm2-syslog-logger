@@ -1,6 +1,6 @@
 {
   "name": "pm2-syslog-logger",
-  "version": "0.2.6",
+  "version": "0.2.4",
   "dependencies": {
     "pm2": "^2.10.4",
     "posix": "^4.1.2",
