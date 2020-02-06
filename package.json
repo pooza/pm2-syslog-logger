@@ -2,9 +2,9 @@
   "name": "pm2-syslog-logger",
   "version": "0.2.4",
   "dependencies": {
+    "js-yaml": ">=3.13.1",
     "pm2": "^2.10.4",
-    "posix": "^4.1.2",
-    "js-yaml": ">=3.13.1"
+    "posix": "^4.2.0"
   },
   "apps": [
     {
