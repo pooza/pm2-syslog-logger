@@ -2,8 +2,8 @@
   "name": "pm2-syslog-logger",
   "version": "0.2.5",
   "dependencies": {
-    "pm2": "^2.10.4",
-    "posix": "Andersbakken/node-posix#node12fix"
+    "pm2": "^4.2.0",
+    "posix": "github:Andersbakken/node-posix#node12fix"
   },
   "apps": [
     {
@@ -16,7 +16,7 @@
   "description": "Output log of pm2 to syslog.",
   "main": "app.js",
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^6.8.0"
   },
   "scripts": {
     "lint": "eslint *.js"
