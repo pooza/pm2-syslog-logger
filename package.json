@@ -1,6 +1,6 @@
 {
   "name": "pm2-syslog-logger",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "dependencies": {
     "pm2": "^4.4.0",
     "posix": "github:Andersbakken/node-posix#node12fix"
