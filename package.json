@@ -2,10 +2,10 @@
   "name": "pm2-syslog-logger",
   "version": "0.2.13",
   "dependencies": {
-    "pm2": "^4.5.1",
-    "posix": "^4.2.0",
     "axios": ">=0.21.1",
-    "systeminformation": ">=4.30.5"
+    "pm2": "^4.5.6",
+    "posix": "^4.2.0",
+    "systeminformation": "^5.6.10"
   },
   "apps": [
     {
@@ -18,7 +18,7 @@
   "description": "Output log of pm2 to syslog.",
   "main": "app.js",
   "devDependencies": {
-    "eslint": "^7.17.0",
+    "eslint": "^7.23.0",
     "minimist": "^1.2.5",
     "mkdirp": "^1.0.2"
   },
